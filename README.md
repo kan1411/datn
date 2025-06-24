@@ -55,27 +55,18 @@ Use NetAnim to open the generated drone_animation.xml file.
 
 Use NetSimulyzer to open drone_simulation_log.json and visualize the 3D movement.
 
-## Output
-wifi_communication_log.csv: Logs position, action, RSSI, delay, and packet loss.
-
-q_table_drone_search.txt: Q-values exported after training.
-
-Optional: Use Python/Matplotlib to plot:
-
-RSSI over time (with/without noise)
-
-UDP Success Rate over time
-
-Average delay over time
 
 📁 File Structure
 .
-projectfinal/
-├── sar_project/
-│   └── deepqlearning.py
-└── scratch/
-    ├── sar_drone_test2.cc
-    └── sar_drone_test3.cc
+finalproject/
+├── NetSimulyzer/
+├── ns-allinone-3.37/
+│   └── ns-3.37/
+│       └── scratch/
+│           ├── sar_drone_test2.cc
+│           └── sar_drone_test3.cc
+└── sar_project/
+    └── deepqlearning.py
 
 🔍 Reference
 Based on implementation guide from:
